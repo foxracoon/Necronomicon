@@ -10,6 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import noelle.necro.Necronomicon;
+import noelle.necro.item.items.BloomingLanceItem;
+import noelle.necro.item.items.GoUpItem;
 import noelle.necro.item.items.StopWatchItem;
 import noelle.necro.item.items.TheReapersHandMaiden;
 
@@ -19,7 +21,7 @@ public class ModItems {
                     new FabricItemSettings().fireproof().maxCount(1)));
 
     public static Item BLOOMING_LANCE = registerItem("blooming_lance",
-            new TheReapersHandMaiden(ToolMaterials.NETHERITE, 1,-2.5f,
+            new BloomingLanceItem(ToolMaterials.NETHERITE, 1,-2.5f,
                     new FabricItemSettings().fireproof().maxCount(1)));
 
     public static Item THE_NECRONOMICON =registerItem("necornomicon",
@@ -27,6 +29,11 @@ public class ModItems {
 
     public static Item STOPWATCH =registerItem("stopwatch",
             new StopWatchItem(new FabricItemSettings().maxCount(1)));
+
+
+    //noelle is testing stuffs
+    public static Item GO_UP =registerItem("go_up",
+            new GoUpItem(new FabricItemSettings().maxCount(2000)));
 
 
 
