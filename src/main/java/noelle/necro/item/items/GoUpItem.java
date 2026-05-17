@@ -101,18 +101,12 @@ public class GoUpItem extends Item {
 
             target.addStatusEffect(new StatusEffectInstance(
                     SLOW_FALLING,
-                    30,
-                    0
-            ));
-
-            target.addStatusEffect(new StatusEffectInstance(
-                    StatusEffects.DARKNESS,
-                    100,
+                    50,
                     0
             ));
 
             Vec3d velocity = target.getVelocity();
-            target.setVelocity(velocity.x, 1.0D, velocity.z);
+            target.setVelocity(velocity.x, 2.0D, velocity.z);
             target.velocityModified = true;
 
             player.getItemCooldownManager().remove(this);

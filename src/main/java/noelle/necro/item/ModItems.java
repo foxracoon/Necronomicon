@@ -24,15 +24,15 @@ public class ModItems {
             new BloomingLanceItem(ToolMaterials.NETHERITE, 1,-2.5f,
                     new FabricItemSettings().fireproof().maxCount(1)));
 
-    public static Item THE_NECRONOMICON =registerItem("necornomicon",
+    public static Item THE_NECRONOMICON = registerItem("necornomicon",
             new Item(new FabricItemSettings().maxCount(1)));
 
-    public static Item STOPWATCH =registerItem("stopwatch",
+    public static Item STOPWATCH = registerItem("stopwatch",
             new StopWatchItem(new FabricItemSettings().maxCount(1)));
 
 
     //noelle is testing stuffs
-    public static Item GO_UP =registerItem("go_up",
+    public static Item GO_UP = registerItem("go_up",
             new GoUpItem(new FabricItemSettings().maxCount(2000)));
 
 
